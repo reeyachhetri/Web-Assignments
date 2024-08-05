@@ -1,8 +1,5 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
     margin: 0;
     padding: 0;
 }
@@ -10,97 +7,66 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    min-height: 100vh;
 }
 
-/* Header Styles */
 header {
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
     background-color: #333;
-    color: #fff;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 20px 0;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav a {
+    color: white;
+    margin: 0 15px;
     text-decoration: none;
-    color: #fff;
-    background-color: #444;
-    padding: 10px 15px;
-    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #555;
+    text-decoration: underline;
 }
 
-/* Content Styles */
 .content {
-    width: 100%;
+    flex: 1;
+    padding: 20px;
     text-align: center;
-    margin: 20px 0;
 }
 
-.content img {
-    width: 300px;
-    height: 450px;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-.story, .mission, .values, .team {
-    margin-bottom: 20px;
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
-.team-members {
+.product-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-.team-member {
+.product-item {
+    flex: 1 1 200px;
+    max-width: 200px;
     text-align: center;
 }
 
-.team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-/* Footer Styles */
-footer {
+.product-item img {
     width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
-    color: #fff;
-    margin-top: 20px;
+    height: auto;
 }
 
-.back-link {
-    text-decoration: none;
-    color: #333;
-    background-color: #f0f0f0;
-    padding: 10px 20px;
-    border-radius: 5px;
+.back-button {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
 }
 
-.back-link:hover {
-    background-color: #e0e0e0;
+.back-button:hover {
+    background-color: #555;
 }

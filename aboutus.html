@@ -3,58 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KOLOG - About Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>KOLOG - About Us & Contact Us</title>
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>KOLOG</h1>
+            <h1>KOLOG Fashion Collection</h1>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="collections.html">Our Collections</a>
-                <a href="about.html">About Us</a>
-                <a href="contactus.html">Contact Us</a>
+                <a href="about-contact.html">About Us</a>
+                <a href="shop.html">Shop</a>
             </nav>
         </header>
 
         <div class="content">
-            
-            <section class="story">
-                <h3>Our Story</h3>
-                <p>KOLOG was founded in 2020 with the vision of creating a unique fashion brand that combines contemporary styles with timeless elegance. Our journey began with a small boutique, and over the years, we have grown into a recognized name in the fashion industry.</p>
-            </section>
+            <section class="about-us">
+                <h2>About Us</h2>
+                <div class="story">
+                    <h3>Our Story</h3>
+                    <p>KOLOG was founded in 2020 with the vision of creating a unique fashion brand that combines contemporary styles with timeless elegance. Our journey began with a small boutique, and over the years, we have grown into a recognized name in the fashion industry.</p>
+                </div>
 
-            <section class="mission">
-                <h3>Our Mission</h3>
-                <p>At KOLOG, our mission is to inspire confidence and individuality through fashion. We strive to provide high-quality, stylish clothing that allows our customers to express their unique personalities. Our collections are designed to make you feel comfortable, confident, and stylish, no matter the occasion.</p>
-            </section>
+                <div class="mission">
+                    <h3>Our Mission</h3>
+                    <p>At KOLOG, our mission is to inspire confidence and individuality through fashion. We strive to provide high-quality, stylish clothing that allows our customers to express their unique personalities. Our collections are designed to make you feel comfortable, confident, and stylish, no matter the occasion.</p>
+                </div>
 
-            <section class="values">
-                <h3>Our Values</h3>
-                <p>Quality, innovation, customer satisfaction, and sustainability are the cornerstones of KOLOG. We are committed to using the finest materials and craftsmanship to ensure our products are of the highest quality. Innovation drives our designs, bringing fresh, exciting styles to our collections. Our customers are at the heart of everything we do, and we strive to provide exceptional service and create a memorable shopping experience. We believe in sustainable fashion and are dedicated to making eco-friendly choices in our production processes.</p>
-            </section>
+                <div class="values">
+                    <h3>Our Values</h3>
+                    <p>Quality, innovation, customer satisfaction, and sustainability are the cornerstones of KOLOG. We are committed to using the finest materials and craftsmanship to ensure our products are of the highest quality. Innovation drives our designs, bringing fresh, exciting styles to our collections. Our customers are at the heart of everything we do, and we strive to provide exceptional service and create a memorable shopping experience. We believe in sustainable fashion and are dedicated to making eco-friendly choices in our production processes.</p>
+                </div>
 
-            <section class="team">
-                <h3>Meet Our Team</h3>
-                <p>Our team is composed of passionate and talented individuals who share a common love for fashion and creativity. From our designers to our customer service representatives, each team member plays a vital role in bringing KOLOG's vision to life.</p>
-                <div class="team-members">
-                    <div class="team-member">
-                        <img src="member.png" alt="Team Member 1">
-                        <h4>Jane Doe</h4>
-                        <p>Founder & CEO</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="member.png" alt="Team Member 2">
-                        <h4>Jenny Smith</h4>
-                        <p>Lead Designer</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="member.png" alt="Team Member 3">
-                        <h4>Sarah Johnson</h4>
-                        <p>Marketing Manager</p>
+                <div class="team">
+                    <h3>Meet Our Team</h3>
+                    <p>Our team is composed of passionate and talented individuals who share a common love for fashion and creativity. From our designers to our customer service representatives, each team member plays a vital role in bringing KOLOG's vision to life.</p>
+                    <div class="team-members">
+                        <div class="team-member">
+                            <img src="member.png" alt="Team Member 1">
+                            <h4>Jane Doe</h4>
+                            <p>Founder & CEO</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="member.png" alt="Team Member 2">
+                            <h4>John Smith</h4>
+                            <p>Lead Designer</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="member.png" alt="Team Member 3">
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Manager</p>
+                        </div>
                     </div>
                 </div>
+            </section>
+
+            <section class="contact-us">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
             </section>
         </div>
 
