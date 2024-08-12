@@ -4,31 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KOLOG - Product 5</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>KOLOG</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="collections.html">Our Collections</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="shop.html">Shop</a>
-            </nav>
-        </header>
-
-        <div class="content">
-            <img src="product5.png" alt="Product 5">
-            <h2>Product 5</h2>
-            <p>Description of Product 5.</p>
-            <p>Price: $89</p>
-            <a href="index.html" class="back-link"> Back to Main Page</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">KOLOG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Our Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <footer>
-            <p>&copy; 2024 KOLOG. All rights reserved.</p>
-        </footer>
+    <!-- Product Detail -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/product5.png" class="img-fluid" alt="Product 5">
+            </div>
+            <div class="col-md-6">
+                <h2>Product 5</h2>
+                <p>$80.00</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+                <a href="shop.html" class="btn btn-secondary">Back to Shop</a>
+            </div>
+        </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 KOLOG. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
